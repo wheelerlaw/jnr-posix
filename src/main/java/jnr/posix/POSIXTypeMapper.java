@@ -5,7 +5,7 @@ import jnr.constants.Constant;
 import jnr.ffi.mapper.*;
 import jnr.posix.util.Platform;
 
-final class POSIXTypeMapper implements TypeMapper {
+public final class POSIXTypeMapper implements TypeMapper {
     public static final TypeMapper INSTANCE = new POSIXTypeMapper();
     
     private POSIXTypeMapper() {}
